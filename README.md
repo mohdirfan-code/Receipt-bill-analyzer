@@ -63,9 +63,8 @@ The application uses a **client-server architecture**:
 - A **Streamlit Frontend** provides the interactive user interface, consuming data from the FastAPI backend.
 
 
-----
 ## 💻 Setup & Installation
-
+---
 1. Clone the Repository
 
 ```bash
@@ -93,7 +92,7 @@ cd backend
 .\venv\Scripts\activate
 cd ../frontend_streamlit
 streamlit run app.py
--
+---
 
 ❤️ Contribution & Contact
 Developed by Mohd Irfan.
