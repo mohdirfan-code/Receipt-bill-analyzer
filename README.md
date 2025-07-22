@@ -14,22 +14,22 @@ This full-stack mini-application helps you effortlessly manage your expenses by 
 - **Interactive Dashboard**  
   A user-friendly **Streamlit interface** for managing and visualizing your expenses.
 
-- **Tabular View & Manual Correction**  
-  View and **edit parsed data directly** in an interactive table via the UI.
-
 - **Powerful Search & Filter**  
   Efficiently find transactions using keywords, amount/date ranges, and vendor patterns.
 
 - **Comprehensive Analytics**  
   Visualizes total spend, mean/median, category/vendor distributions, and monthly spending trends.
 
+---
+
+## 🎁 Implemented Bonus Features
+-**Manual Field Correction via UI: Users can edit and correct parsed data directly in the interactive table presented in the Streamlit UI.**
+
 - **Data Export**  
   **Export summaries and raw data to CSV and JSON** formats.
 
 - **Currency & Multi-Language OCR Support**  
-  Backend designed for currency detection and potential multi-language receipt processing.
-
----
+  Backend designed for currency detection and potential multi-language receipt processing
 
 ## 🚀 Technologies Used
 
@@ -52,6 +52,8 @@ This full-stack mini-application helps you effortlessly manage your expenses by 
 - **Poppler**: External PDF rendering library
 
 ---
+##📸 Screenshots / Demo
+---
 
 ## 🏗️ Architecture
 
@@ -67,103 +69,38 @@ graph TD
     FastAPI -->|Data Storage| SQLite[SQLite Database & Local Uploads]
     FastAPI --o|OCR Processing| TesseractPoppler[Tesseract OCR & Poppler]
 
-💻 Setup & Installation
-1. Clone the Repository
-bash
-Copy
-Edit
+
+----
+##💻 Setup & Installation
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/mohdirfan-code/Receipt-bill-analyzer.git
 cd Receipt-bill-analyzer
-2. Install Prerequisites
-Ensure the following are installed and added to your system's PATH:
 
-Python 3.11+
-
-Tesseract OCR Engine (with language data)
-
-Poppler
-
-Node.js & npm (optional, useful if switching frameworks)
-
-3. Set Up Python Virtual Environment & Install Dependencies
-bash
-Copy
-Edit
+### 2. Set Up Virtual Environment & Install Dependencies
 cd backend
 python -m venv venv
 .\venv\Scripts\activate  # PowerShell
 # OR
-.\venv\Scripts\activate.bat  # Command Prompt
+.\venv\Scripts\activate.bat  # CMD
 
-# Install Python dependencies
 pip install -r requirements.txt
-Sample requirements.txt (already present in repo):
 
-nginx
-Copy
-Edit
-fastapi
-uvicorn
-sqlalchemy
-pydantic
-python-dotenv
-flask-cors
-python-multipart
-pillow
-pytest
-pytesseract
-pdf2image
-opencv-python
-numpy
-streamlit
-pandas
-requests
-4. Ensure Backend Folders Exist
-bash
-Copy
-Edit
-mkdir backend\uploads
-mkdir backend\db
-5. Run FastAPI Backend
-In a new terminal:
 
-bash
-Copy
-Edit
+### 3. Run FastAPI Backend
 cd backend
 .\venv\Scripts\activate
 cd ..
-uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
-6. Run Streamlit Frontend
-In another terminal:
+uvicorn backend.main:app --reload 
 
-bash
-Copy
-Edit
+### 4. Run Streamlit Frontend
 cd backend
 .\venv\Scripts\activate
 cd ../frontend_streamlit
 streamlit run app.py
-Access in browser: http://localhost:8501
+---
 
-⚠️ Limitations & Assumptions
-Ephemeral Local Storage: Files and DB entries are stored locally and will be lost on cloud restarts. Use persistent storage like AWS S3 or a hosted PostgreSQL DB in production.
-
-OCR Accuracy: Results depend on receipt quality and OCR capabilities. Complex layouts may produce incorrect parsing.
-
-No Currency Conversion: Only detects symbols; no real-time exchange or conversion logic implemented.
-
-No User Authentication: All uploaded data is accessible globally within a running instance.
-
-📸 Screenshots / Demo
-(Insert screenshots or a link to a screen recording/demo video here)
-
-❤️ Contribution & Contact
-Developed by Firdous as part of the internship assignment.
-
-GitHub: https://github.com/mohdirfan-code/Receipt-bill-analyzer
-Feel free to open issues or pull requests!
-
-vbnet
-Copy
-Edit
+##**❤️ Contribution & Contact**
+Developed by Mohd Irfan.
