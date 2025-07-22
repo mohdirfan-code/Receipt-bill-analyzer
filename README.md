@@ -52,7 +52,15 @@ This full-stack mini-application helps you effortlessly manage your expenses by 
 - **Poppler**: External PDF rendering library
 
 ---
-##📸 Screenshots / Demo
+## 📸 Screenshots / Demo 
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/af8f369b-4ad5-466f-abe0-5e4fde541e4d" />
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/6d935a78-c267-425f-a8b8-b7955027eca5" />
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/3bc9acf4-c503-44e9-92af-bc491f1f2ba0" />
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/0e0f2b6b-331e-4c57-84da-aabe009737c1" />
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/37ae8e60-b32b-4a7d-8948-3a7faf589120" />
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/61483727-3c49-4f09-8b34-47ca11f6ce6a" />
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/0db9c2b8-8853-4da8-91b9-241eb50b0b23" />
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/79218e06-1f3a-4e6b-ae42-35ed6f9cff61" />
 ---
 
 ## 🏗️ Architecture
@@ -63,10 +71,10 @@ The application uses a **client-server architecture**:
 - A **Streamlit Frontend** provides the interactive user interface, consuming data from the FastAPI backend.
 
 
-💻 Setup & Installation
-1. Clone the Repository
+## 💻 Setup & Installation
 
 ```
+1. Clone the Repository
 git clone https://github.com/mohdirfan-code/Receipt-bill-analyzer.git
 cd Receipt-bill-analyzer
 
