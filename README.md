@@ -66,13 +66,13 @@ The application uses a **client-server architecture**:
 ----
 ## 💻 Setup & Installation
 
--1. Clone the Repository
+1. Clone the Repository
 
 ```bash
 git clone https://github.com/mohdirfan-code/Receipt-bill-analyzer.git
 cd Receipt-bill-analyzer
 
--2. Set Up Virtual Environment & Install Dependencies
+2. Set Up Virtual Environment & Install Dependencies
 cd backend
 python -m venv venv
 .\venv\Scripts\activate  # PowerShell
@@ -82,18 +82,18 @@ python -m venv venv
 pip install -r requirements.txt
 
 
--3. Run FastAPI Backend
+3. Run FastAPI Backend
 cd backend
 .\venv\Scripts\activate
 cd ..
 uvicorn backend.main:app --reload 
 
--4. Run Streamlit Frontend
+4. Run Streamlit Frontend
 cd backend
 .\venv\Scripts\activate
 cd ../frontend_streamlit
 streamlit run app.py
----
+-
 
-### ❤️ Contribution & Contact**
+❤️ Contribution & Contact
 Developed by Mohd Irfan.
