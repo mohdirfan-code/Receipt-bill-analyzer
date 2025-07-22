@@ -66,7 +66,7 @@ The application uses a **client-server architecture**:
 💻 Setup & Installation
 1. Clone the Repository
 
-```bash
+```
 git clone https://github.com/mohdirfan-code/Receipt-bill-analyzer.git
 cd Receipt-bill-analyzer
 
@@ -91,7 +91,7 @@ cd backend
 .\venv\Scripts\activate
 cd ../frontend_streamlit
 streamlit run app.py
-
+```
 
 ❤️ Contribution & Contact
 Developed by Mohd Irfan.
