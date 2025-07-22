@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-multipart
+pillow
+pytest
+pytesseract
+pdf2image
+opencv-python
+numpy
+requests
+streamlit
+panda
+protobuf
+pyarrow
+GitPython

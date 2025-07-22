@@ -1,0 +1,30 @@
+receipt-bill-analyzer/
+├── backend/
+│   ├── api/
+│   │   └── upload.py         # FastAPI route for file uploads
+│   ├── core/
+│   │   └── ocr.py            # OCR & parsing logic (to be created)
+│   ├── models/
+│   │   └── receipt.py        # Pydantic models & DB schema (to be created)
+│   ├── utils/
+│   │   └── helpers.py        # Utility functions (to be created)
+│   ├── tests/
+│   │   └── test_api.py       # Backend tests (to be created)
+│   ├── main.py               # FastAPI app entry point
+│   └── __init__.py
+├── frontend/
+│   ├── public/               # Static assets
+│   ├── src/
+│   │   ├── components/       # React components
+│   │   ├── pages/            # Page-level components
+│   │   ├── hooks/            # Custom hooks
+│   │   ├── utils/            # Frontend helpers
+│   │   ├── App.tsx           # React app root
+│   │   ├── index.tsx         # Entry point
+│   │   └── styles/           # Tailwind or CSS
+│   └── tests/                # Frontend tests
+├── docs/
+│   └── architecture.md       # System architecture and design docs
+├── requirements.txt          # Backend dependencies
+├── .gitignore                # Git ignore file
+├── README.md                 # Project documentation

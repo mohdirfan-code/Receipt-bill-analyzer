@@ -1,0 +1,5 @@
+"vendor": "Walmart",
+"date": "2024-06-15",
+"amount": 123.45$,
+"category": "Groceries",
+"currency": "$"

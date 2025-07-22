@@ -1,0 +1,35 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+.mypy_cache/
+.DS_Store # macOS specific
+
+# Database
+backend/db/*.db # Ignores your SQLite database file
+backend/uploads/ # Ignores uploaded files (they are temporary and for local dev)
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
