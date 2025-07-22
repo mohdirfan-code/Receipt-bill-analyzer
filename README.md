@@ -62,18 +62,11 @@ The application uses a **client-server architecture**:
 - A **FastAPI Backend** handles all data processing (OCR, parsing, database operations) and exposes RESTful APIs.
 - A **Streamlit Frontend** provides the interactive user interface, consuming data from the FastAPI backend.
 
-```mermaid
-graph TD
-    User -->|Interacts with| Streamlit[Streamlit Frontend]
-    Streamlit -->|HTTP Requests| FastAPI[FastAPI Backend]
-    FastAPI -->|Data Storage| SQLite[SQLite Database & Local Uploads]
-    FastAPI --o|OCR Processing| TesseractPoppler[Tesseract OCR & Poppler]
-
 
 ----
 ##💻 Setup & Installation
 
-### 1. Clone the Repository
+###1. Clone the Repository
 
 ```bash
 git clone https://github.com/mohdirfan-code/Receipt-bill-analyzer.git
@@ -102,5 +95,5 @@ cd ../frontend_streamlit
 streamlit run app.py
 ---
 
-##**❤️ Contribution & Contact**
+### ❤️ Contribution & Contact**
 Developed by Mohd Irfan.
