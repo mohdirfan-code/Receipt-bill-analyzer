@@ -63,7 +63,7 @@ The application uses a **client-server architecture**:
 - A **Streamlit Frontend** provides the interactive user interface, consuming data from the FastAPI backend.
 
 
-## 💻 Setup & Installation
+💻 Setup & Installation
 1. Clone the Repository
 
 ```bash
