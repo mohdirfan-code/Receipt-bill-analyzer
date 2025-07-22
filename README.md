@@ -101,5 +101,4 @@ cd ../frontend_streamlit
 streamlit run app.py
 ```
 
-❤️ Contribution & Contact
-Developed by Mohd Irfan.
+❤️ Developed by Mohd Irfan.
